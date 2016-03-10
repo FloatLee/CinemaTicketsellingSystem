@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2A3BB9C2-03D7-4685-BBB2-B8562D4555D9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>影院售票系统</RootNamespace>
+    <AssemblyName>影院售票系统</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CinemaBLL.cs" />
+    <Compile Include="CinemaDAL.cs" />
+    <Compile Include="CinemaUI\HallNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CinemaUI\HallNew.Designer.cs">
+      <DependentUpon>HallNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CinemaUI\HallQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CinemaUI\HallQuery.Designer.cs">
+      <DependentUpon>HallQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CinemaUI\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CinemaUI\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CinemaUI\MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CinemaUI\MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CinemaUI\MovieNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CinemaUI\MovieNew.Designer.cs">
+      <DependentUpon>MovieNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CinemaUI\MovieQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CinemaUI\MovieQuery.Designer.cs">
+      <DependentUpon>MovieQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CinemaUI\PlanRowcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CinemaUI\PlanRowcs.Designer.cs">
+      <DependentUpon>PlanRowcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CinemaUI\TicketSale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CinemaUI\TicketSale.Designer.cs">
+      <DependentUpon>TicketSale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CinemaUI\HallNew.resx">
+      <DependentUpon>HallNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CinemaUI\HallQuery.resx">
+      <DependentUpon>HallQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CinemaUI\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CinemaUI\MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CinemaUI\MovieNew.resx">
+      <DependentUpon>MovieNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CinemaUI\MovieQuery.resx">
+      <DependentUpon>MovieQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CinemaUI\PlanRowcs.resx">
+      <DependentUpon>PlanRowcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CinemaUI\TicketSale.resx">
+      <DependentUpon>TicketSale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\登录.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\界面.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PicMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PicInformation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PicRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PicTitle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PicLevel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PicWindow.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

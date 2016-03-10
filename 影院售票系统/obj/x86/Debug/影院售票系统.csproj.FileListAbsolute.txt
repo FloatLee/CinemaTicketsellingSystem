@@ -1,0 +1,15 @@
+G:\学习\大三上学期\C#.net\课程项目\影院售票系统\影院售票系统\bin\Debug\影院售票系统.exe
+G:\学习\大三上学期\C#.net\课程项目\影院售票系统\影院售票系统\bin\Debug\影院售票系统.pdb
+G:\学习\大三上学期\C#.net\课程项目\影院售票系统\影院售票系统\obj\x86\Debug\影院售票系统.Properties.Resources.resources
+G:\学习\大三上学期\C#.net\课程项目\影院售票系统\影院售票系统\obj\x86\Debug\影院售票系统.csproj.GenerateResource.Cache
+G:\学习\大三上学期\C#.net\课程项目\影院售票系统\影院售票系统\obj\x86\Debug\影院售票系统.exe
+G:\学习\大三上学期\C#.net\课程项目\影院售票系统\影院售票系统\obj\x86\Debug\影院售票系统.pdb
+G:\学习\大三上学期\C#.net\课程项目\影院售票系统\影院售票系统\obj\x86\Debug\影院售票系统.MainMenu.resources
+G:\学习\大三上学期\C#.net\课程项目\影院售票系统\影院售票系统\obj\x86\Debug\影院售票系统.CinemaUI.HallNew.resources
+G:\学习\大三上学期\C#.net\课程项目\影院售票系统\影院售票系统\obj\x86\Debug\影院售票系统.CinemaUI.HallQuery.resources
+G:\学习\大三上学期\C#.net\课程项目\影院售票系统\影院售票系统\obj\x86\Debug\影院售票系统.csprojResolveAssemblyReference.cache
+G:\学习\大三上学期\C#.net\课程项目\影院售票系统\影院售票系统\obj\x86\Debug\影院售票系统.CinemaUI.MovieNew.resources
+G:\学习\大三上学期\C#.net\课程项目\影院售票系统\影院售票系统\obj\x86\Debug\影院售票系统.CinemaUI.MovieQuery.resources
+G:\学习\大三上学期\C#.net\课程项目\影院售票系统\影院售票系统\obj\x86\Debug\影院售票系统.CinemaUI.PlanRows.resources
+G:\学习\大三上学期\C#.net\课程项目\影院售票系统\影院售票系统\obj\x86\Debug\影院售票系统.CinemaUI.TicketSale.resources
+G:\学习\大三上学期\C#.net\课程项目\影院售票系统\影院售票系统\obj\x86\Debug\影院售票系统.CinemaUI.Login.resources
